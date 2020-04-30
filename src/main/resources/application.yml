@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  
+security:
+  oauth2:
+    client:
+      client-id: admin
+      client-secret: admin
+      
+keystore:
+  file: keystore.jks
+  storepass: vsk.rahul
+  key-alias: tpsi
+  key-secret: vsk.rahul
